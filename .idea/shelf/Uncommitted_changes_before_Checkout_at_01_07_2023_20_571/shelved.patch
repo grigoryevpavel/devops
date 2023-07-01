@@ -1,0 +1,48 @@
+Index: branching/merge.sh
+===================================================================
+diff --git a/branching/merge.sh b/branching/merge.sh
+new file mode 100644
+--- /dev/null	
++++ b/branching/merge.sh	
+@@ -0,0 +1,8 @@
++#!/bin/bash
++# display command line options
++
++count=1
++for param in "$*"; do
++    echo "\$* Parameter #$count = $param"
++    count=$(( $count + 1 ))
++done
+Index: will_be_moved.txt
+===================================================================
+diff --git a/will_be_moved.txt b/will_be_moved.txt
+deleted file mode 100644
+--- a/will_be_moved.txt	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-will_be_moved
+\ No newline at end of file
+Index: branching/rebase.sh
+===================================================================
+diff --git a/branching/rebase.sh b/branching/rebase.sh
+new file mode 100644
+--- /dev/null	
++++ b/branching/rebase.sh	
+@@ -0,0 +1,8 @@
++#!/bin/bash
++# display command line options
++
++count=1
++for param in "$*"; do
++    echo "\$* Parameter #$count = $param"
++    count=$(( $count + 1 ))
++done
+Index: will_be_deleted.txt
+===================================================================
+diff --git a/will_be_deleted.txt b/will_be_deleted.txt
+deleted file mode 100644
+--- a/will_be_deleted.txt	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-will_be_deleted
+\ No newline at end of file
