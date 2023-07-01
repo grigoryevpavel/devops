@@ -95,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688234471924</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="merge: @ instead *">
+      <created>1688237902237</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1688237902237</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +221,7 @@
     <MESSAGE value="Add 1 line at the end of README.md" />
     <MESSAGE value="Add Pycharm files" />
     <MESSAGE value="prepare for merge and rebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepare for merge and rebase" />
+    <MESSAGE value="merge: @ instead *" />
+    <option name="LAST_COMMIT_MESSAGE" value="merge: @ instead *" />
   </component>
 </project>
